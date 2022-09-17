@@ -1,0 +1,143 @@
+
+    
+    @import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.sidebar{
+    
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   height: 100vh;
+   background-color: rgb(101, 101, 101);
+}
+
+.sidebar nav li {
+    list-style:none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.sidebar nav{
+    padding : 40px;
+   
+}
+.main{
+    background-color:aliceblue(242, 244, 245);
+    width: 180vw;
+}
+.container{
+    display: flex ;
+}
+.infoContainer{
+    background-color:aliceblue(234, 238, 239);
+    height: 50vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+ font-family: 'Courier New', Courier, monospace;
+
+}
+.devpic img{
+    width: 381px; 
+    height: 50vh;
+}
+.hello{
+    font-size: 80px;
+      
+}
+
+.name{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about{
+    font-size: 30px
+}
+
+.button{
+  
+    margin-top: 34px ;
+
+}
+.button button{
+    padding: 10px;
+     border-radius:23px ;
+     color:black(47, 199, 199);
+     background-color:rgb(231, 243, 243);
+     font-weight: bold;
+     font-size: 20px;
+     margin: 0 3 px;
+     cursor:pointer;
+}
+.button button:hover{
+    color:rgb(43, 195, 195);
+    background-color:azure;
+
+}
+.moreabout{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactform h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.contactform form div{
+   padding: 27px 0;
+}
+
+
+@media (max-width: 825px) {
+   
+    .sidebar{
+        transform: translate(-443px , 0px);
+        position: absolute;
+    }
+}
+.ham{
+    position:absolute;
+    cursor: pointer;
+    top: 10px;
+    
+
+    margin: 10px;
+padding-top: 10px;
+}
+   
+
+    
+
+.sidebargo{
+    
+  transform: translate(-443px , 0px);
+  position: absolute;
+}
+.aec img{
+    
+
+    width: 130px;
+    margin: 10px;
+}
